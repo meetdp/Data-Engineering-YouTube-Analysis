@@ -4,6 +4,9 @@
 
 This project aims to build a robust data engineering and analysis pipeline for YouTube videos. It involves securely ingesting data from various sources, transforming it into a suitable format, and storing it in a centralized data lake. Leveraging AWS services, the project ensures scalability and cloud-based processing capabilities. The end goal is to generate insights and create visual dashboards using tools like QuickSight, enabling comprehensive analysis of YouTube video trends based on categories and trending metrics.
 
+## Architecture Diagram
+<img src="architecture.jpeg">
+
 ## Project Goals
 1. Data Ingestion: Build a mechanism to securely ingest data from different sources, specifically focusing on collecting YouTube videos data.
 2. ETL System: Develop an Extract, Transform, Load (ETL) system to transform the raw data into a proper format suitable for analysis. This involves structuring and organizing the data for further processing.
@@ -25,5 +28,4 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
 
 https://www.kaggle.com/datasets/datasnaek/youtube-new
 
-## Architecture Diagram
-<img src="architecture.jpeg">
+
